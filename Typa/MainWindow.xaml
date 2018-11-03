@@ -6,8 +6,11 @@
         xmlns:local="clr-namespace:Typa"
         mc:Ignorable="d"
         xmlns:views="clr-namespace:Typa.Views"
+        xmlns:tb="http://www.hardcodet.net/taskbar" 
          Height="800" Width="1000">
     <Grid>
+        <tb:TaskbarIcon x:Name="notifyIcon" IconSource="/Icons/Inactive.ico" ToolTipText="Typa" />
+
         <views:TypaView  x:Name="view" />
     </Grid>
 </Window>
